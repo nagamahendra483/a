@@ -1,0 +1,14 @@
+body {
+    font-size: 14px !important;
+  }
+  
+  .form-label {
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: .2rem;
+  }
+  
+  #error-msg-div {
+    color: red;
+    padding: 0.5em;
+  }

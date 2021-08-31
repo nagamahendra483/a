@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+            <a href="/" class="
+              d-flex
+              align-items-center
+              mb-3 mb-md-0
+              me-md-auto
+              text-dark text-decoration-none
+            ">
+                <svg class="bi me-2" width="40" height="32">
+                    <use xlink:href="#bootstrap"></use>
+                </svg>
+                <span class="fs-4">FE Assessment</span>
+            </a>
+
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a href="first.html" class="nav-link active" aria-current="page">Adding Question</a>
+                </li>
+                <li class="nav-item"><a href="second.html" class="nav-link">Table</a></li>
+                <li class="nav-item"><a href="third.html" class="nav-link">Form</a></li>
+                
+            </ul>
+        </header>
+
+        <div class="pb-3">
+            <div class="d-grid gap-3">
+                <div class="border rounded-3 p-4">
+                    <div class="mb-3">
+                        <label for="title" class="form-label">Titleof the question</label>
+                        <input type="title" class="form-control" id="title" placeholder="Enter the title of the question" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="option1" class="form-label">Option1</label>
+                        <input type="option1" class="form-control" id="option1" placeholder="option1" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="option2" class="form-label">Option2</label>
+                        <input type="option2" class="form-control" id="option2" placeholder="option2" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="option3" class="form-label">Option3</label>
+                        <input type="option3" class="form-control" id="option3" placeholder="option3" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="option4" class="form-label">Option4</label>
+                        <input type="option4" class="form-control" id="option4" placeholder="option4" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="correct" class="form-label">Correct Option</label>
+                        <input type="correct" class="form-control" id="correct" placeholder="correct option" />
+                    </div>
+                    <div class="mb-3" id="error-msg-div">
+
+                    </div>
+                    <div class="d-grid mb-3">
+                        <button class="btn btn-primary btn-sm" type="button" onclick="submitForm()">ADD</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+</body>
+
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <div class="container">
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+        <a href="/" class="
+          d-flex
+          align-items-center
+          mb-3 mb-md-0
+          me-md-auto
+          text-dark text-decoration-none
+        ">
+            <svg class="bi me-2" width="40" height="32">
+                <use xlink:href="#bootstrap"></use>
+            </svg>
+            <span class="fs-4">FE Assessment</span>
+        </a>
+
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a href="first.html" class="nav-link active" aria-current="page">Adding Question</a>
+            </li>
+            <li class="nav-item"><a href="second.html" class="nav-link">Table</a></li>
+            <li class="nav-item"><a href="third.html" class="nav-link">Form</a></li>
+            
+        </ul>
+    </header>
+    <div class="border rounded-3 p-4">
+        <table class="table table-hover" id="table1">
+          <thead>
+            <tr>
+              <th scope="col">Title of the question</th>
+              <th scope="col">Option1</th>
+              <th scope="col">Option2</th>
+              <th scope="col">Option3</th>
+              <th scope="col">Option4</th>
+              <th scope="col">Correct Option</th>
+            </tr>
+          </thead>
+          <tbody id="table-body">
+            <!-- Dynamic content goes here -->
+            
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <script src="app.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+</body>
+</html>
